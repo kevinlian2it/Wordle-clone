@@ -19,14 +19,15 @@ def main():
         guess = input(f"Guess {i}/6: ")
         if guess not in words:
             print("Enter a valid guess!")
+            continue
         else:
             check_guess(word,guess)
             i+=1
         if guess == word:
             print("You guessed right!")
-            return 0
+            return
     print("You failed, try again next time. The word was " + word + ".")
-    return 0
+    return
 
 def get_word(words):
     return random.choice(words)
