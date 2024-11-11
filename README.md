@@ -1,4 +1,4 @@
-# COMSW3132HW1
+# Wordle
 
 Wordle Rules: 
 
